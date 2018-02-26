@@ -3,3 +3,24 @@
     height: 70px;
     margin-top: -10px;
 }
+.team-grid-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: grid;
+    line-height: 16px;
+    max-height: 200px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.ser_info {
+	background: #18ba60;
+}
+.ser_info h4 {    
+	text-align: center;
+    width: 100%;
+}
+.welcome-right-info {
+	background: rgba(119, 119, 119, 0.3);
+    padding: 4em 3em;
+    border: 1px solid #888;
+}

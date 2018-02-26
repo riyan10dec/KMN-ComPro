@@ -1228,7 +1228,7 @@ ul.rating li span{
 
 /*-- welcome --*/
 .welcome{
-	padding:5em 0;
+	padding:2em 0;
 }
 .grid_info h3 {
     font-size: 23px;
@@ -1271,21 +1271,22 @@ ul.rating li span{
 }
 
 .welcome_left {
-    background: url(../images/banner4.jpg) no-repeat 0px 0px;
-    background-size: cover;
-	min-height: 450px;
+    /*background: url(../images/banner4.jpg) no-repeat 0px 0px;*/
+    /*background-size: cover;*/
+    text-align: center;
     padding: 0;
 }
 .welcome_left h3 {
+	font-weight: bolder;
     font-size: 30px;
-    color: #fff;
+    color: #585858;
     text-transform: capitalize;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 .welcome_left p {
     font-size: 15px;
-    color: #eee;
+    color: #383838;
     text-transform: capitalize;
     letter-spacing: 1px;
 	line-height: 24px;
@@ -1305,9 +1306,12 @@ ul.rating li span{
 	margin-top:2em;
 }
 .welcome_left_info {
-    background: rgba(119, 119, 119, 0.3);
-    padding: 4em 3em;
-    border: 1px solid #888;
+	color: #383838;
+	font-size: 22px;
+	letter-spacing: 1px;
+    /*background: rgba(119, 119, 119, 0.3);*/
+    padding: 3em 3em;
+    /*border: 1px solid #888;*/
 }
 /*-- //welcome --*/
 
