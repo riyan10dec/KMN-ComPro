@@ -28,7 +28,7 @@
 .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
 html[xmlns] .slides {display: block;} 
 * html .slides {height: 1%;}
-
+	
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
@@ -70,8 +70,8 @@ html[xmlns] .slides {display: block;}
     border-radius: 0% 0% 0% 0;
     right: 0%;
 }
-.flex-direction-nav .flex-prev {right: 6%; top:-24%;background: #18ba60 url("../images/prev.png") no-repeat 8px 6px;}
-.flex-direction-nav .flex-next {right: 2%; top:-24%;background: #18ba60 url("../images/next.png") no-repeat 8px 6px;}
+.flex-direction-nav .flex-prev {right: 6%; top:-24%;background: #469bc7 url("../images/prev.png") no-repeat 8px 6px;}
+.flex-direction-nav .flex-next {right: 2%; top:-24%;background: #469bc7 url("../images/next.png") no-repeat 8px 6px;}
 .flexslider:hover .flex-next {opacity: 1;}
 .flexslider:hover .flex-prev {opacity: 1;}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
@@ -98,15 +98,15 @@ html[xmlns] .slides {display: block;}
 .flex-control-paging li a.flex-active { 
 	background:none;
     cursor: default;
-	border: 1px solid #18ba60;
+	border: 1px solid #469bc7;
 }
 .flexslider-info{
 	margin:2em 0em;
 }
 .flex-control-paging li a.flex-active {
-    background: #18ba60;
+    background: #469bc7;
     cursor: default;
-    border: 1px solid #18ba60;
+    border: 1px solid #469bc7;
 }
 .flex-control-paging li a {
     background: none;
